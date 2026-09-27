@@ -1,8 +1,9 @@
 plugins {
-	id 'net.fabricmc.fabric-loom' version '1.18-SNAPSHOT'
+	id 'net.fabricmc.fabric-loom' version '1.17-SNAPSHOT'
 }
 
 apply from: 'https://raw.githubusercontent.com/TerraformersMC/GradleScripts/3.2/ferry.gradle'
+version = '18.0.0-alpha.1+mc26.4-snapshot-1'
 
 dependencies {
 	minecraft "com.mojang:minecraft:$project.minecraft_version"
